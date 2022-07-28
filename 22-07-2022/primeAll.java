@@ -7,7 +7,7 @@ class primeAll
    Scanner he = new Scanner(System.in);
    System.out.println("Enter No: ");
    int num = he.nextInt(); 
-   for(int i=2;i<=num;i++)
+   for(int i=2;i<num;i++)
    {
     int count =0;
      for(int j=2;j<i;j++)
